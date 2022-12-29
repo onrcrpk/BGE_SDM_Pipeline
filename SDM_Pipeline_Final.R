@@ -73,19 +73,19 @@ maxent.results <- data.frame(me.species=character(0), me.records=numeric(0), me.
 
 
 #read study area shapefile.
-countries <- rgdal::readOGR("D:/Github/BGE-SDMv2/GISDATA/Study Area SHP")
+countries <- rgdal::readOGR("D:/Github/BGE_SDM_Pipeline/GISDATA/Study Area SHP")
 #assign a CRS.
 P4S.latlon <- CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0")
-
+D:/GithubBGE_SDM_Pipeline
 #the species in the GAP analysis.
-Diptera.files <- list.files("D:/Github/BGE_sdm/T4.1_Gap_Analysis/Diptera csv files", full.names = T, pattern = '[.]csv$')
+Diptera.files <- list.files("D:/Github/BGE_SDM_Pipeline/T4.1_Gap_Analysis/Diptera csv files", full.names = T, pattern = '[.]csv$')
 Diptera.files
 
 ## Download precipitation/Bio/+++ data from WorldClim
 ##global.clim <- raster::getData("worldclim", var="bio", res=5, download=T, path="RDATA")
 
 # read worldclim
-files.present <- list.files('D:/Github/BGE_sdm/RDATA/clipped/', pattern="[.]asc$", full.names=T) # alternatives for pattern (c|C)(e|E)(l|L)$
+files.present <- list.files('D:/Github/BGE_SDM_Pipeline/RDATA/clipped/', pattern="[.]asc$", full.names=T) # alternatives for pattern (c|C)(e|E)(l|L)$
 files.present[1:19]
 
 #make a stack with 19 bioclim variables
@@ -230,7 +230,7 @@ for(i in 1:length(Diptera.files)){
           feGBIF <- dat_cl[, c('scientificName', 'taxonomicStatus', 'taxonKey', 'speciesKey', 'decimalLatitude', 'decimalLongitude')]
           
           #save the species data.
-          write.csv(feGBIF, paste0('D:/Github/BGE_sdm/T4.1_Gap_Analysis/R/speciesFilesDiptera/', x[j, c("species")], '.csv'))
+          write.csv(feGBIF, paste0('D:/Github/BGE_SDM_Pipeline/T4.1_Gap_Analysis/R/speciesFilesDiptera/', x[j, c("species")], '.csv'))
           
           #species <- read.csv(species.files[j], header = TRUE)
           
@@ -254,7 +254,7 @@ for(i in 1:length(Diptera.files)){
           num.records <- dim(species.unique@data)[1]
           newdf <- data.frame(species,num.records)
           final.results <- rbind(final.results, newdf)
-          #write.csv(final.results, 'D:/Github/BGE_sdm/Output/diptera.final.results.csv', row.names=F)
+          #write.csv(final.results, 'D:/Github/BGE_SDM_Pipeline/Output/diptera.final.results.csv', row.names=F)
                 }
               }
             }
@@ -287,11 +287,11 @@ flagged.gbif
 mask <- raster(files.present[1])
 mask <- !is.na(mask) # all values to 1
 mask[mask == 0] <- NA # zero values to NA
-writeRaster(mask, filename  = "D:/Github/BGE_sdm/RDATA/mask/mask.asc", format = 'ascii', NAflag = -9999, overwrite = T)
+writeRaster(mask, filename  = "D:/Github/BGE_SDM_Pipeline/RDATA/mask/mask.asc", format = 'ascii', NAflag = -9999, overwrite = T)
 #plot(mask, col='red')
 
 #read gap-species
-species.files <- list.files('D:/Github/BGE_sdm/T4.1_Gap_Analysis/R/speciesFilesDiptera/', pattern="[.]csv$", full.names=T) # alternatives for pattern (c|C)(e|E)(l|L)$
+species.files <- list.files('D:/Github/BGE_SDM_Pipeline/T4.1_Gap_Analysis/R/speciesFilesDiptera/', pattern="[.]csv$", full.names=T) # alternatives for pattern (c|C)(e|E)(l|L)$
 species.files
 
 #### Part 2 ####
@@ -333,12 +333,12 @@ for(i in 1:length(species.files))  {
       
     } else {
       #read empty mask layer
-      mask <- raster('D:/Github/BGE_sdm/RDATA/mask/mask.asc')
+      mask <- raster('D:/Github/BGE_SDM_Pipeline/RDATA/mask/mask.asc')
       coordinates(species.unique) <- ~decimalLongitude+decimalLatitude
       species.unique@proj4string <- P4S.latlon #assign CRS
       
       # add mask to present.df
-      present.df@data$mask <- as.data.frame(stack('D:/Github/BGE_sdm/RDATA/mask/mask.asc')) # Add mask layer to spdf
+      present.df@data$mask <- as.data.frame(stack('D:/Github/BGE_SDM_Pipeline/RDATA/mask/mask.asc')) # Add mask layer to spdf
 
       #prepare data to maxent.
       species.unique.maxent <- as.data.frame(cbind(species.unique@data[, c("scientificName")], species.unique@coords))
@@ -369,13 +369,13 @@ for(i in 1:length(species.files))  {
       m[as.vector(v[,1])] <- 1
       
       # Write mask for buffered areas
-      writeRaster(m, filename  = "D:/Github/BGE_sdm/RDATA/mask/mask.500km.asc", format = 'ascii', NAflag = -9999, overwrite = T)
+      writeRaster(m, filename  = "D:/Github/BGE_SDM_Pipeline/RDATA/mask/mask.500km.asc", format = 'ascii', NAflag = -9999, overwrite = T)
     
       # copy present.df
       present.species.df <- present.df 
       
       # read mask layer
-      mask.buffer.df <- as.data.frame(stack('D:/Github/BGE_sdm/RDATA/mask/mask.500km.asc'), xy=T)
+      mask.buffer.df <- as.data.frame(stack('D:/Github/BGE_SDM_Pipeline/RDATA/mask/mask.500km.asc'), xy=T)
       
       # replace mask with mask.500km
       present.species.df$mask <- mask.buffer.df[,'layer'] 
@@ -415,8 +415,8 @@ for(i in 1:length(species.files))  {
       
       #### Step 5: Run the Maxent Model ####
       ### Create directory for Maxent
-      mainDirMaxent <- "D:/Github/BGE_sdm/maxentOutput/"
-      #writeRaster(mask, filename  = "D:/Github/BGE_sdm/RDATA/clipped/mask.asc", format = 'ascii', NAflag = -9999, overwrite = T) # Add mask to abiotic data
+      mainDirMaxent <- "D:/Github/BGE_SDM_Pipeline/maxentOutput/"
+      #writeRaster(mask, filename  = "D:/Github/BGE_SDM_Pipeline/RDATA/clipped/mask.asc", format = 'ascii', NAflag = -9999, overwrite = T) # Add mask to abiotic data
       
       #SampleWithData (swd) dataframe
       swd <- rbind(species.unique.df@data, sample.df.keep)
@@ -425,10 +425,10 @@ for(i in 1:length(species.files))  {
       pa <- c(rep(1, nrow(species.unique.df@data)), rep(0, nrow(sample.df.keep))); length(pa) 
       
       #Run the Maxent Model
-      me <- maxent(swd, pa, args = c("noproduct", "nothreshold", "nohinge", "noextrapolate", "outputformat=logistic", "jackknife", "responsecurves", "applyThresholdRule=10 percentile training presence", "projectionlayers=D:/Github/BGE_sdm/RDATA/clipped", "redoifexists"), path=file.path(mainDirMaxent))
+      me <- maxent(swd, pa, args = c("noproduct", "nothreshold", "nohinge", "noextrapolate", "outputformat=logistic", "jackknife", "responsecurves", "applyThresholdRule=10 percentile training presence", "projectionlayers=D:/Github/BGE_SDM_Pipeline/RDATA/clipped", "redoifexists"), path=file.path(mainDirMaxent))
       
       #change the name of the output file
-      file.rename("D:/Github/BGE_sdm/maxentOutput/species_clipped_thresholded.asc", paste0("D:/Github/BGE_sdm/maxentOutput/", basename(species.files[i]), "_clipped_thresholded.asc"))
+      file.rename("D:/Github/BGE_SDM_Pipeline/maxentOutput/species_clipped_thresholded.asc", paste0("D:/Github/BGE_SDM_Pipeline/maxentOutput/", basename(species.files[i]), "_clipped_thresholded.asc"))
 
       maxentResults <- read.csv(paste(file.path(mainDirMaxent), '/', 'maxentResults.csv', sep=""))
       maxent.auc <- maxentResults$Training.AUC
@@ -454,7 +454,7 @@ for(i in 1:length(species.files))  {
       null.auc <- auc[5]
       newdf <- data.frame(me.species,me.records,me.auc,null.auc)
       maxent.results <- rbind(maxent.results, newdf)
-      #write.csv(maxent.results, 'D:/Github/BGE_sdm/Output/maxent.results.diptera.28.csv', row.names=F)
+      #write.csv(maxent.results, 'D:/Github/BGE_SDM_Pipeline/Output/maxent.results.diptera.28.csv', row.names=F)
       
       setTxtProgressBar(pb, i)
       
@@ -476,7 +476,7 @@ close(pb)
 
 
 #read maxent projected probability maps
-species.diversity.list <- list.files("D:/Github/BGE_sdm/maxentOutput/", pattern="_clipped_thresholded[.]asc$", full.names=T) # alternatives for pattern (c|C)(e|E)(l|L)$
+species.diversity.list <- list.files("D:/Github/BGE_SDM_Pipeline/maxentOutput/", pattern="_clipped_thresholded[.]asc$", full.names=T) # alternatives for pattern (c|C)(e|E)(l|L)$
 species.diversity.list
 
 #transform species.diversity.df in SpatialPointsDataFrame
