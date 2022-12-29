@@ -1,0 +1,26 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Ormyrus badius,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus caeruleus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus capsalis,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus chalybeus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus cingulatus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus cosmozonus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus cupreus,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus destefanii,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus diffinis,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",0.0,1.0,0.0,,gap,1122561.0
+Ormyrus gratiosus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus langlandi,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus longicornis,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus monegricus,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus nitidulus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"BOLD,FE,DTN",12.0,14.0,3.0,,,508437.0
+Ormyrus orientalis,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus papaveris,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus parvulus,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus pomaceus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"BOLD,FE,DTN",190.0,193.0,7.0,,,508436.0
+Ormyrus punctulatus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus rufimanus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"BOLD,FE,DTN",0.0,1.0,0.0,,gap,968808.0
+Ormyrus solitarius,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus speculifer,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,
+Ormyrus versicolor,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus violaceus,Arthropoda,Insecta,Hymenoptera,Ormyridae,"FE,DTN",,,,,gap,
+Ormyrus wachtli,Arthropoda,Insecta,Hymenoptera,Ormyridae,FE,,,,,gap,

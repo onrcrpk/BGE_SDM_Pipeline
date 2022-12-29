@@ -1,0 +1,21 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Gazoryctra fuscoargenteus,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",5.0,5.0,1.0,,,370714.0
+Gazoryctra ganna,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",9.0,11.0,3.0,,,324159.0
+Hepialus humuli,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF,iNat",153.0,233.0,4.0,,,164127.0
+Hepialus sylvina,Arthropoda,Insecta,Lepidoptera,Hepialidae,BOLD,0.0,2.0,0.0,,gap,197675.0
+Korscheltellus castillanus,Arthropoda,Insecta,Lepidoptera,Hepialidae,"FE,LF",,,,FD,gap,
+Korscheltellus fusconebulosa,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",46.0,48.0,1.0,FD,,726757.0
+Korscheltellus lupulina,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",104.0,111.0,1.0,FD,,17968.0
+Korscheltellus lupulinus,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,iNat",0.0,3.0,0.0,,gap,154837.0
+Pharmacis aemilianus,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",5.0,5.0,0.0,,,955886.0
+Pharmacis anselminae,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",4.0,4.0,1.0,,,448274.0
+Pharmacis bertrandi,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",6.0,7.0,1.0,,,266439.0
+Pharmacis cantabricus,Arthropoda,Insecta,Lepidoptera,Hepialidae,LF,,,,,gap,
+Pharmacis carna,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",20.0,21.0,1.0,,,246316.0
+Pharmacis claudiae,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",4.0,4.0,1.0,,,399896.0
+Pharmacis pyrenaicus,Arthropoda,Insecta,Lepidoptera,Hepialidae,"FE,LF",,,,,gap,
+Phymatopus hecta,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF,iNat",34.0,41.0,1.0,,,183484.0
+Triodia adriaticus,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF",5.0,5.0,1.0,,,518713.0
+Triodia amasinus,Arthropoda,Insecta,Lepidoptera,Hepialidae,"FE,LF",,,,,gap,
+Triodia sylvina,Arthropoda,Insecta,Lepidoptera,Hepialidae,"BOLD,FE,LF,iNat",96.0,104.0,3.0,,,179183.0
+Zenophassus schamyl,Arthropoda,Insecta,Lepidoptera,Hepialidae,LF,,,,,gap,
