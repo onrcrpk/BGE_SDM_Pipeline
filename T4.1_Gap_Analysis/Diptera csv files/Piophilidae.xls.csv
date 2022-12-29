@@ -1,0 +1,35 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Actenoptera hilarella,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",,,,,gap,
+Allopiophila baechlii,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",5.0,5.0,3.0,,,591280.0
+Allopiophila flavipes,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,SyDip",2.0,3.0,1.0,,,605198.0
+Allopiophila lonchaeoides,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,SyDip",3.0,3.0,0.0,,,605197.0
+Allopiophila luteata,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE,SyDip",22.0,22.0,1.0,,,461958.0
+Allopiophila pectiniventris,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,SyDip",3.0,3.0,1.0,,,510642.0
+Allopiophila tomentosa,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",8.0,9.0,1.0,,,591268.0
+Allopiophila vernicosa,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",,,,,gap,
+Allopiophila vulgaris,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,SyDip",12.0,14.0,1.0,,,467361.0
+Amphipogon flavum,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE",5.0,6.0,1.0,,,483477.0
+Arctopiophila arctica,Arthropoda,Insecta,Diptera,Piophilidae,FE,54.0,55.0,2.0,,,591266.0
+Centrophlebomyia furcata,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",0.0,3.0,0.0,,gap,715399.0
+Lasiopiophila pilosa,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,SyDip",18.0,19.0,1.0,,,449270.0
+Mycetaulus bipunctatus,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE,SyDip",9.0,13.0,2.0,,,470651.0
+Mycetaulus hispanicus,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",,,,,gap,
+Mycetaulus latipennis,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",,,,,gap,
+Neottiophilum praestrum,Arthropoda,Insecta,Diptera,Piophilidae,FE,,,,,gap,
+Parapiophila caerulescens,Arthropoda,Insecta,Diptera,Piophilidae,FE,,,,,gap,
+Parapiophila calceata,Arthropoda,Insecta,Diptera,Piophilidae,FE,2.0,3.0,1.0,,,591272.0
+Parapiophila dudai,Arthropoda,Insecta,Diptera,Piophilidae,FE,1.0,1.0,1.0,,,591275.0
+Parapiophila flavipes,Arthropoda,Insecta,Diptera,Piophilidae,FE,7.0,7.0,2.0,,,763986.0
+Parapiophila fulviceps,Arthropoda,Insecta,Diptera,Piophilidae,FE,12.0,13.0,1.0,,,591271.0
+Parapiophila lonchaeoides,Arthropoda,Insecta,Diptera,Piophilidae,FE,,,,,gap,
+Parapiophila pectiniventris,Arthropoda,Insecta,Diptera,Piophilidae,FE,13.0,14.0,1.0,,,591274.0
+Parapiophila vulgaris,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE",32.0,52.0,1.0,,,391641.0
+Piophila (Piophila) casei,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE,SyDip",8.0,25.0,2.0,SyDip,,716375.0
+Prochyliza (Liopiophila) varipes,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE,SyDip",45.0,62.0,1.0,SyDip,,13761.0
+Prochyliza lundbecki,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",,,,,gap,
+Prochyliza nigricornis,Arthropoda,Insecta,Diptera,Piophilidae,FE,,,,,gap,
+Prochyliza nigrimana,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE,SyDip",1.0,8.0,2.0,,,789195.0
+Protopiophila latipes,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE,SyDip",27.0,41.0,2.0,,,14278.0
+Pseudoseps signata,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE,SyDip",2.0,2.0,1.0,,,704363.0
+Stearibia nigriceps,Arthropoda,Insecta,Diptera,Piophilidae,"BOLD,FE,SyDip",47.0,76.0,1.0,,,510565.0
+Thyreophora cynophila,Arthropoda,Insecta,Diptera,Piophilidae,"FE,SyDip",0.0,4.0,0.0,,gap,716788.0

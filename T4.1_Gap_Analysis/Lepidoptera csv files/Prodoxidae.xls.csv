@@ -1,0 +1,23 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Greya variabilis,Arthropoda,Insecta,Lepidoptera,Prodoxidae,LF,9.0,14.0,1.0,,,33208.0
+Lampronia aeneella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"FE,LF",,,,,gap,
+Lampronia aenigma,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,LF",0.0,2.0,0.0,,gap,939791.0
+Lampronia aereipennella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,BOLD,3.0,6.0,0.0,,,402871.0
+Lampronia aeripennella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"FE,LF",,,,,gap,
+Lampronia altaica,Arthropoda,Insecta,Lepidoptera,Prodoxidae,LF,,,,,gap,
+Lampronia argillella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",0.0,1.0,0.0,,gap,641407.0
+Lampronia capitella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF,iNat",15.0,18.0,1.0,,,179020.0
+Lampronia corticella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF,iNat",35.0,38.0,1.0,,,194587.0
+Lampronia flavimitrella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF,iNat",12.0,16.0,1.0,,,286200.0
+Lampronia fuscatella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",5.0,6.0,1.0,,,201630.0
+Lampronia intermediella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"FE,LF",,,,,gap,
+Lampronia luzella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",13.0,13.0,1.0,,,183454.0
+Lampronia morosa,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",8.0,9.0,2.0,,,286398.0
+Lampronia provectella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",3.0,4.0,1.0,,,324170.0
+Lampronia psychidella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"FE,LF",,,,,gap,
+Lampronia pubicornis,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",3.0,4.0,1.0,,,760593.0
+Lampronia redimitella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",2.0,7.0,1.0,,,286234.0
+Lampronia rupella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF,iNat",29.0,29.0,1.0,,,179064.0
+Lampronia splendidella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",4.0,4.0,1.0,,,714550.0
+Lampronia standfussiella,Arthropoda,Insecta,Lepidoptera,Prodoxidae,"BOLD,FE,LF",5.0,6.0,1.0,,,286233.0
+Prodoxus cinereus,Arthropoda,Insecta,Lepidoptera,Prodoxidae,LF,6.0,10.0,2.0,,,28303.0

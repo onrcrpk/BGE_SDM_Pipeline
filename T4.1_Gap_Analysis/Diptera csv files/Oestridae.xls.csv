@@ -1,0 +1,24 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Cephenemyia auribarbis,Arthropoda,Insecta,Diptera,Oestridae,"FE,iNat,SyDip",11.0,18.0,1.0,,,789181.0
+Cephenemyia stimulator,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,iNat,SyDip",3.0,26.0,0.0,,,172876.0
+Cephenemyia trompe,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,SyDip",9.0,14.0,1.0,,,171070.0
+Cephenemyia ulrichii,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,SyDip",5.0,6.0,1.0,,,172875.0
+Dermatobia hominis,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,SyDip",15.0,23.0,2.0,,,27764.0
+Gasterophilus haemorrhoidalis,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",6.0,15.0,1.0,,,172872.0
+Gasterophilus inermis,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",4.0,8.0,1.0,,,878946.0
+Gasterophilus intestinalis,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",22.0,88.0,2.0,,,33104.0
+Gasterophilus nasalis,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",4.0,105.0,1.0,,,172871.0
+Gasterophilus nigricornis,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",7.0,84.0,1.0,,,878947.0
+Gasterophilus pecorum,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",6.0,163.0,1.0,,,172870.0
+Hypoderma (Hypoderma) bovis,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,SyDip",14.0,52.0,1.0,SyDip,,33105.0
+Hypoderma (Hypoderma) lineatum,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",6.0,7.0,2.0,SyDip,,32668.0
+Hypoderma (Oedemagena) tarandi,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,SyDip",24.0,33.0,1.0,SyDip,,172878.0
+Hypoderma actaeon,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",0.0,12.0,0.0,,gap,172877.0
+Hypoderma diana,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,iNat,SyDip",2.0,3.0,1.0,,,172879.0
+Oestromyia leporina,Arthropoda,Insecta,Diptera,Oestridae,"FE,iNat,SyDip",0.0,25.0,0.0,,gap,921976.0
+Oestrus caucasicus,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",,,,,gap,
+Oestrus ovis,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,SyDip",39.0,127.0,2.0,,,33103.0
+Pharyngomyia picta,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",34.0,39.0,1.0,,,789184.0
+Portschinskia neugebaueri,Arthropoda,Insecta,Diptera,Oestridae,"FE,SyDip",,,,,gap,
+Przhevalskiana silenus,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,SyDip",3.0,30.0,1.0,,,33102.0
+Rhinoestrus purpureus,Arthropoda,Insecta,Diptera,Oestridae,"BOLD,FE,SyDip",1.0,1.0,0.0,,,800671.0

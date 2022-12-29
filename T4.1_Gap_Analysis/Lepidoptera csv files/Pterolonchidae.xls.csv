@@ -1,0 +1,9 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Gomezbustillus lutescentella,Arthropoda,Insecta,Lepidoptera,Pterolonchidae,LF,,,,LF,gap,
+Pterolonche albescens,Arthropoda,Insecta,Lepidoptera,Pterolonchidae,"FE,LF",,,,,gap,
+Pterolonche douxi,Arthropoda,Insecta,Lepidoptera,Pterolonchidae,"BOLD,LF",2.0,2.0,1.0,,,971953.0
+Pterolonche gozmaniella,Arthropoda,Insecta,Lepidoptera,Pterolonchidae,"FE,LF",,,,,gap,
+Pterolonche inspersa,Arthropoda,Insecta,Lepidoptera,Pterolonchidae,"BOLD,FE,LF",16.0,16.0,1.0,,,158726.0
+Pterolonche lutescentella,Arthropoda,Insecta,Lepidoptera,Pterolonchidae,"FE,LF",,,,,gap,
+Pterolonche pulverulenta,Arthropoda,Insecta,Lepidoptera,Pterolonchidae,"FE,LF",,,,,gap,
+Pterolonche vallettae,Arthropoda,Insecta,Lepidoptera,Pterolonchidae,"FE,LF",,,,,gap,

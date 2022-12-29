@@ -1,0 +1,6 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Krombeinella longicollis,Arthropoda,Insecta,Hymenoptera,Myrmosidae,"BOLD,FE",1,4,0,,,330610
+Krombeinella thoracica,Arthropoda,Insecta,Hymenoptera,Myrmosidae,"BOLD,FE",2,3,2,,,330603
+Krombeinella wolfi,Arthropoda,Insecta,Hymenoptera,Myrmosidae,"BOLD,FE",0,3,0,,gap,330605
+Myrmosa atra,Arthropoda,Insecta,Hymenoptera,Myrmosidae,"BOLD,FE,iNat,DTN",51,115,4,,,349410
+Paramyrmosa brunnipes,Arthropoda,Insecta,Hymenoptera,Myrmosidae,"BOLD,FE,DTN",5,7,1,,,330631

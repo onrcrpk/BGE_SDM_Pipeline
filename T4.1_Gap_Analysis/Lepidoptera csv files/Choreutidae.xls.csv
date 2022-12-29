@@ -1,0 +1,21 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Anthophila abhasica,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",1.0,1.0,0.0,,,940954.0
+Anthophila fabriciana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF,iNat",48.0,65.0,1.0,,,198062.0
+Anthophila fabriciania,Arthropoda,Insecta,Lepidoptera,Choreutidae,BOLD,1.0,1.0,1.0,,,155909.0
+Anthophila threnodes,Arthropoda,Insecta,Lepidoptera,Choreutidae,"FE,LF",0.0,1.0,0.0,,gap,715230.0
+Anthophila variabilis,Arthropoda,Insecta,Lepidoptera,Choreutidae,LF,,,,,gap,
+Choreutis diana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",32.0,35.0,3.0,,,8286.0
+Choreutis nemorana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF,iNat",15.0,16.0,1.0,,,293618.0
+Choreutis pariana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF,iNat",40.0,47.0,1.0,,,33577.0
+Prochoreutis constellata,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,LF",1.0,1.0,1.0,,,1022812.0
+Prochoreutis holotoxa,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",8.0,10.0,1.0,,,258121.0
+Prochoreutis myllerana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF,iNat",15.0,16.0,1.0,,,197894.0
+Prochoreutis pseudostellaris,Arthropoda,Insecta,Lepidoptera,Choreutidae,"FE,LF",,,,,gap,
+Prochoreutis sehestediana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",8.0,10.0,1.0,,,261733.0
+Prochoreutis solaris,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",1.0,4.0,1.0,,,344525.0
+Prochoreutis stellaris,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",6.0,9.0,1.0,,,517574.0
+Prochoreutis ultimana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",3.0,3.0,1.0,,,286044.0
+Tebenna bjerkandrella,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",23.0,32.0,3.0,,,258120.0
+Tebenna chingana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",0.0,2.0,0.0,,gap,1139431.0
+Tebenna micalis,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF,iNat",62.0,69.0,2.0,,,139945.0
+Tebenna pretiosana,Arthropoda,Insecta,Lepidoptera,Choreutidae,"BOLD,FE,LF",9.0,11.0,1.0,,,344524.0

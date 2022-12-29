@@ -1,0 +1,9 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Periscelis (Periscelis) annulipes,Arthropoda,Insecta,Diptera,Periscelididae,"FE,SyDip",,,,,gap,
+Periscelis (Periscelis) nigra,Arthropoda,Insecta,Diptera,Periscelididae,"BOLD,FE,SyDip",1.0,1.0,0.0,SyDip,,1067662.0
+Periscelis (Periscelis) winnertzii,Arthropoda,Insecta,Diptera,Periscelididae,"BOLD,FE,SyDip",2.0,2.0,1.0,,,969388.0
+Periscelis annulata,Arthropoda,Insecta,Diptera,Periscelididae,"BOLD,FE",17.0,21.0,4.0,,,598091.0
+Periscelis fugax,Arthropoda,Insecta,Diptera,Periscelididae,BOLD,1.0,1.0,1.0,,,914023.0
+Stenomicra (Podocera) soniae,Arthropoda,Insecta,Diptera,Periscelididae,"BOLD,SyDip",14.0,17.0,2.0,,,704361.0
+Stenomicra cogani,Arthropoda,Insecta,Diptera,Periscelididae,"FE,SyDip",,,,,gap,
+Stenomicra delicata,Arthropoda,Insecta,Diptera,Periscelididae,"FE,SyDip",,,,SyDip,gap,
