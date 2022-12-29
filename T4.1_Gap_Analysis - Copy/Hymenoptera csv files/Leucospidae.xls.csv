@@ -1,0 +1,8 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid,Unnamed: 12
+Leucospis bifasciata,Arthropoda,Insecta,Hymenoptera,Leucospidae,FE,,,,,gap,,
+Leucospis biguetina,Arthropoda,Insecta,Hymenoptera,Leucospidae,"BOLD,FE",1.0,3.0,0.0,,,729339.0,
+Leucospis brevicauda,Arthropoda,Insecta,Hymenoptera,Leucospidae,"BOLD,FE",0.0,5.0,0.0,,gap,729341.0,
+Leucospis conicus,Arthropoda,Insecta,Hymenoptera,Leucospidae,FE,,,,,gap,,
+Leucospis dorsigera,Arthropoda,Insecta,Hymenoptera,Leucospidae,"BOLD,FE,iNat,DTN",11.0,26.0,1.0,FE,,519810.0,729338.0
+Leucospis gigas,Arthropoda,Insecta,Hymenoptera,Leucospidae,"BOLD,FE,DTN",7.0,14.0,1.0,,,729337.0,
+Leucospis miniata,Arthropoda,Insecta,Hymenoptera,Leucospidae,FE,,,,,gap,,

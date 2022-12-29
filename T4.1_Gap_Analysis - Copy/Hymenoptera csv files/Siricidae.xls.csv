@@ -1,0 +1,22 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Sirex areolatus,Arthropoda,Insecta,Hymenoptera,Siricidae,FE,5.0,5.0,1.0,,,333552.0
+Sirex carinthiacus,Arthropoda,Insecta,Hymenoptera,Siricidae,FE,,,,,gap,
+Sirex cyaneus,Arthropoda,Insecta,Hymenoptera,Siricidae,"FE,DTN",18.0,18.0,1.0,,,161995.0
+Sirex ermak,Arthropoda,Insecta,Hymenoptera,Siricidae,"BOLD,FE",3.0,7.0,0.0,,,332748.0
+Sirex juvencus,Arthropoda,Insecta,Hymenoptera,Siricidae,"BOLD,FE,iNat,DTN",8.0,22.0,2.0,,,162004.0
+Sirex noctilio,Arthropoda,Insecta,Hymenoptera,Siricidae,"BOLD,FE,iNat,DTN",67.0,76.0,1.0,,,80529.0
+Sirex torvus,Arthropoda,Insecta,Hymenoptera,Siricidae,BOLD,1.0,1.0,0.0,,,390258.0
+Tremex alchymista,Arthropoda,Insecta,Hymenoptera,Siricidae,FE,,,,,gap,
+Tremex columba,Arthropoda,Insecta,Hymenoptera,Siricidae,FE,27.0,30.0,1.0,,,81946.0
+Tremex fuscicornis,Arthropoda,Insecta,Hymenoptera,Siricidae,"BOLD,FE,iNat,DTN",12.0,16.0,2.0,,,190415.0
+Tremex magus,Arthropoda,Insecta,Hymenoptera,Siricidae,"FE,DTN",0.0,1.0,0.0,,gap,331654.0
+Urocerus albicornis,Arthropoda,Insecta,Hymenoptera,Siricidae,FE,12.0,14.0,1.0,,,161997.0
+Urocerus argonautarum,Arthropoda,Insecta,Hymenoptera,Siricidae,"FE,DTN",,,,,gap,
+Urocerus augur,Arthropoda,Insecta,Hymenoptera,Siricidae,"FE,iNat,DTN",,,,,gap,
+Urocerus californicus,Arthropoda,Insecta,Hymenoptera,Siricidae,FE,3.0,4.0,1.0,,,209375.0
+Urocerus fantoma,Arthropoda,Insecta,Hymenoptera,Siricidae,"BOLD,FE,DTN",1.0,3.0,0.0,,,332925.0
+Urocerus franzinii,Arthropoda,Insecta,Hymenoptera,Siricidae,FE,,,,,gap,
+Urocerus gigas,Arthropoda,Insecta,Hymenoptera,Siricidae,"BOLD,FE,iNat,DTN",20.0,31.0,1.0,,,81280.0
+Urocerus sah,Arthropoda,Insecta,Hymenoptera,Siricidae,FE,0.0,4.0,0.0,,gap,209374.0
+Xeris pallicoxae,Arthropoda,Insecta,Hymenoptera,Siricidae,"BOLD,iNat",21.0,21.0,1.0,,,791820.0
+Xeris spectrum,Arthropoda,Insecta,Hymenoptera,Siricidae,"BOLD,FE,iNat,DTN",31.0,41.0,5.0,,,81951.0

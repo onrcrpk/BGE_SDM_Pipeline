@@ -1,0 +1,16 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Lonchoptera bifurcata,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",420.0,421.0,1.0,SyDip,,393887.0
+Lonchoptera fallax,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",9.0,13.0,1.0,,,469845.0
+Lonchoptera flava,Arthropoda,Insecta,Diptera,Lonchopteridae,BOLD,6.0,6.0,1.0,,,545119.0
+Lonchoptera furcata,Arthropoda,Insecta,Diptera,Lonchopteridae,BOLD,2.0,2.0,0.0,,,237251.0
+Lonchoptera impicta,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",3.0,4.0,1.0,,,467455.0
+Lonchoptera lutea,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",75.0,75.0,1.0,,,467456.0
+Lonchoptera meijerei,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE",5.0,6.0,0.0,,,968934.0
+Lonchoptera nerana,Arthropoda,Insecta,Diptera,Lonchopteridae,"FE,SyDip",,,,,gap,
+Lonchoptera nevadica,Arthropoda,Insecta,Diptera,Lonchopteridae,"FE,SyDip",,,,,gap,
+Lonchoptera nigrociliata,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",4.0,7.0,0.0,,,483686.0
+Lonchoptera nitidifrons,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",7.0,10.0,1.0,,,545120.0
+Lonchoptera pictipennis,Arthropoda,Insecta,Diptera,Lonchopteridae,"FE,SyDip",,,,,gap,
+Lonchoptera scutellata,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",2.0,4.0,1.0,,,483306.0
+Lonchoptera strobli,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",10.0,13.0,1.0,,,704364.0
+Lonchoptera tristis,Arthropoda,Insecta,Diptera,Lonchopteridae,"BOLD,FE,SyDip",43.0,46.0,1.0,,,521216.0

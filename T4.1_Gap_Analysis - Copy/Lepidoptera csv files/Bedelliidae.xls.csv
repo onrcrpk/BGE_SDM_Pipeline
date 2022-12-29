@@ -1,0 +1,4 @@
+species,Phylum,Class,Order,Family,source,speciemens barcoded,speciemens,public BINs,verified by,status,BOLD taxid
+Bedellia ehikella,Arthropoda,Insecta,Lepidoptera,Bedelliidae,"BOLD,FE,LF",1.0,1.0,1.0,,,730504.0
+Bedellia silvicolella,Arthropoda,Insecta,Lepidoptera,Bedelliidae,"FE,LF",,,,,gap,
+Bedellia somnulentella,Arthropoda,Insecta,Lepidoptera,Bedelliidae,"BOLD,FE,LF",219.0,230.0,6.0,,,73623.0
