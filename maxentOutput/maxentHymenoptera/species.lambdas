@@ -1,0 +1,13 @@
+fe_buffer_bio02, -0.2985195728442525, 44.0, 92.0
+fe_buffer_bio03, 0.0, 19.0, 43.0
+fe_buffer_bio08, -1.1146675253362666, -13.0, 187.0
+fe_buffer_bio09, 0.0, -99.0, 183.0
+fe_buffer_bio10, -0.5344218062875744, 60.0, 187.0
+fe_buffer_bio13, -18.02903776048431, 51.0, 262.0
+fe_buffer_bio15, -1.6641641460938856, 8.0, 47.0
+fe_buffer_bio18, 0.0, 131.0, 381.0
+mask, 0.0, 1.0, 1.0
+linearPredictorNormalizer, -1.3386377477190503
+densityNormalizer, 703.2849667702924
+numBackgroundPoints, 10002
+entropy, 8.540023135823509

@@ -76,7 +76,7 @@ maxent.results <- data.frame(me.species=character(0), me.records=numeric(0), me.
 countries <- rgdal::readOGR("D:/Github/BGE_SDM_Pipeline/GISDATA/Study Area SHP")
 #assign a CRS.
 P4S.latlon <- CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0")
-D:/GithubBGE_SDM_Pipeline
+
 #the species in the GAP analysis.
 Diptera.files <- list.files("D:/Github/BGE_SDM_Pipeline/T4.1_Gap_Analysis/Diptera csv files", full.names = T, pattern = '[.]csv$')
 Diptera.files
@@ -295,7 +295,7 @@ species.files <- list.files('D:/Github/BGE_SDM_Pipeline/T4.1_Gap_Analysis/R/spec
 species.files
 
 #### Part 2 ####
-
+island <- character()
 # Loop through all species presence files
 pb <- txtProgressBar(min = 0, max = length(species.files), style = 3)
 
@@ -383,6 +383,12 @@ for(i in 1:length(species.files))  {
       #omit nonvalues.
       present.species.df <- na.omit(present.species.df@data)
       
+      if (dim(present.species.df)[1] < 1001) {
+        
+        island <- c(island, basename(species.files[i])) 
+        
+      } else {      
+      
       #### Step 4: Select uncorrelated variables using VIF ####
       if( dim(present.species.df)[1] < 10000){
         
@@ -454,7 +460,7 @@ for(i in 1:length(species.files))  {
       null.auc <- auc[5]
       newdf <- data.frame(me.species,me.records,me.auc,null.auc)
       maxent.results <- rbind(maxent.results, newdf)
-      #write.csv(maxent.results, 'D:/Github/BGE_SDM_Pipeline/Output/maxent.results.diptera.28.csv', row.names=F)
+      #write.csv(maxent.results, 'D:/Github/BGE_SDM_Pipeline/Output/maxent.results.diptera.csv', row.names=F)
       
       setTxtProgressBar(pb, i)
       
@@ -467,7 +473,7 @@ for(i in 1:length(species.files))  {
       }else{
       
         species.modelled <- c(species.modelled, basename(species.files[i]))
-        
+        }
       }
     }
   }
@@ -476,7 +482,7 @@ close(pb)
 
 
 #read maxent projected probability maps
-species.diversity.list <- list.files("D:/Github/BGE_SDM_Pipeline/maxentOutput/", pattern="_clipped_thresholded[.]asc$", full.names=T) # alternatives for pattern (c|C)(e|E)(l|L)$
+species.diversity.list <- list.files("D:/Deneme/valid", pattern="_clipped_thresholded[.]asc$", full.names=T) # alternatives for pattern (c|C)(e|E)(l|L)$
 species.diversity.list
 
 #transform species.diversity.df in SpatialPointsDataFrame
@@ -493,3 +499,16 @@ species.diversity.df@coords
 
 species.diversity.df@data$diversity <- rowSums(species.diversity.df@data)
 image(species.diversity.df, 'diversity') 
+
+
+###################################################################
+#another way to plot diversity map#
+library(raster)
+library(sp)
+
+species.diversity.df <- stack(species.diversity.list)
+species.diversity.df <- sum(species.diversity.df)
+plot(species.diversity.df)
+
+
+

@@ -1,0 +1,2 @@
+java -mx512m -cp "/C:/Users/Onur/AppData/Local/R/win-library/4.2/dismo/java/maxent.jar;C:/Users/Onur/AppData/Local/R/win-library/4.2/rJava/java/boot;C:\Users\Onur\AppData\Local\R\win-library\4.2\dismo\java;C:\Users\Onur\AppData\Local\R\win-library\4.2\dismo\java\dismo.jar;C:\Users\Onur\AppData\Local\R\win-library\4.2\dismo\java\maxent.jar" density.Explain -l D:\Github\BGE_SDM_Pipeline\maxentOutput\species.lambdas D:\Github\BGE_SDM_Pipeline\maxentOutput\species_clipped.asc D:\Github\BGE_SDM_Pipeline\RDATA\clipped
+@if errorlevel 1 pause
